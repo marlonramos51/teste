@@ -9,7 +9,7 @@ class class_name {
     mode   => '0644',
   }
 
-  file { 'name':
+  file { 'nametambem':
     ensure => file,
     mode   => '0644',
   }
