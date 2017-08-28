@@ -4,7 +4,7 @@
 class class_name {
   # resources
 
-  file { 'namealterado':
+  file { 'namealteradoaa':
     ensure => file,
     mode   => '0644',
   }
