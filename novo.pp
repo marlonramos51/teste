@@ -1,7 +1,7 @@
 # == Class: class_name
 #
 
-class class_name {
+class teste {
   # resources
 
   file { 'namealteradoaadd':
@@ -9,16 +9,16 @@ class class_name {
     mode   => '0644',
   }
 
-package { 'name':
+package { 'todos  de uma vez':
   ensure => installed,
 }
 
-  file { 'name':
+  file { 'todos todos de uma vez':
     ensure => file,
-    mode => '0644',
+    mode   => '0644',
   }
 
-  file { 'nametambem':
+  file { 'dirbolatambem':
     ensure => file,
     mode   => '0644',
   }
