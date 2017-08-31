@@ -16,6 +16,7 @@ package { 'todos  de uma vez':
   file { 'todos todos de uma vez':
     ensure => file,
     mode   => '0644',
+    tepm
   }
 
   file { 'dirbolatambem':
