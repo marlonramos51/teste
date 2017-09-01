@@ -9,7 +9,7 @@ class teste {
     mode   => '0644',
   }
 
-package { 'todos  de uma vez':
+package { 'todos  de ffffffuma vez':
   ensure => installed,
 }
 
